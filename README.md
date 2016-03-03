@@ -5,7 +5,8 @@ figures, and bits of quantitative analysis on:
 <TODO>
 
 It also contains reduced and scrambled datasets necessary for analysis, in 
-folder datasets.
+folder datasets. To load all the data in a specific study, source() one of the
+"sX_loadData.R" scripts.
 
 A full dataset is not made publicly available for privacy reasons. Collating the 
 available datasets will NOT reproduce the original dataset.
