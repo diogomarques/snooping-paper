@@ -1,2 +1,12 @@
-# Source this file to load all Study 3 datasets (minimized).
+# Source this file to load all Study 4 datasets (minimized).
 list.by.treat.age.depth = read.csv2(file = "datasets/s4_treat_list_depth_age.csv")
+item1 = read.csv2(file = "datasets/s4_item1.csv")
+item2 = read.csv2(file = "datasets/s4_item2.csv")
+item3 = read.csv2(file = "datasets/s4_item3.csv")
+item4 = read.csv2(file = "datasets/s4_item4.csv")
+item5 = read.csv2(file = "datasets/s4_item5.csv")
+item6 = read.csv2(file = "datasets/s4_item6.csv")
+item7 = read.csv2(file = "datasets/s4_item7.csv")
+item8 = read.csv2(file = "datasets/s4_item8.csv")
+item9 = read.csv2(file = "datasets/s4_item9.csv")
+item10 = read.csv2(file = "datasets/s4_item10.csv")

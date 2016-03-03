@@ -13,8 +13,14 @@ available datasets will NOT reproduce the original dataset.
 
 # Mapping between files and paper
 
-s3_varselection.R -> Appendix D  and Table 8
-s4_models.R -> Appendix E2, Figure 2, correlations between predictions
+### s3_varselection.R
+Appendix D  and Table 8
+
+### s4_models.R 
+Appendix E2, Figure 2, and Section 7.2.2.
+
+### s4_scale.R 
+Appendix F, and Section 7.2.1.
 
 # Work-in-progress
 
