@@ -8,13 +8,19 @@ It also contains reduced and scrambled datasets necessary for analysis, in
 folder datasets. To load all the data in a specific study, source() one of the
 "sX_data.R" scripts.
 
-A full dataset is not made publicly available for privacy reasons. Collating the 
-available datasets will NOT reproduce the original dataset.
+Full datasets are not made publicly available for privacy reasons. Collating the 
+available datasets will NOT reproduce the original datasets.
 
 # Mapping between files and paper
 
 ### s3_varselection.R
-Appendix D  and Table 8
+Appendix D and Table 8
+
+### s3_models.R
+Apprendix E1, Figure 1
+
+### s3_correlation.R
+Section 6.7 
 
 ### s4_models.R 
 Appendix E2, Figure 2, and Section 7.2.2.

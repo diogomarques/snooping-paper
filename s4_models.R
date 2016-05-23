@@ -1,5 +1,4 @@
 # List experiment regression models for Study 4
-
 library(list)
 library(dplyr)
 source("s4_data.R")
@@ -16,7 +15,7 @@ summary(fit.age)
 summary(fit.depth)
 summary(fit.both)
 
-# Image depicting the modela
+# Image depicting the model
 attach(list.by.treat.age.depth)
 label.depth = "Depth of adoption (scale 10-70)"
 label.age = "Age (years)"
@@ -38,7 +37,6 @@ plot(depth, predict.ictreg(fit.both)$fit,
 seq = seq(min(depth), max(depth), by = 0.01)
 lines(seq, predict.ictreg(fit.depth, newdata = data.frame(depth=seq))$fit, lwd = 2)
 #dev.off()
-
 
 # Correlations between predictions
 predictions = data_frame(age = predict.ictreg(fit.age)$fit, 
