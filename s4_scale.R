@@ -10,13 +10,13 @@ sd(depth)
 # Relationship between depth of adoption and age
 cor.test(depth, age)
 # Distribution of scale
-#pdf(file = "figures/s4_scale.pdf")
+pdf(file = "figures/s4_scale.pdf")
 par(mfrow=c(1,1))
 label.depth = "Depth of adoption (scale 10-70)"
 hist(depth, breaks = 7,
      main = "", 
      xlab = label.depth)
-#dev.off()
+dev.off()
 detach(list.by.treat.age.depth)
 
 # Matrix of distribution of single items

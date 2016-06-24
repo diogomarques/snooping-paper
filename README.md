@@ -2,14 +2,14 @@
 This repo contains the analysis files necessary to reproduce all tables, 
 figures, and bits of quantitative analysis on:
 
-<TODO>
+Diogo Marques, Ildar Muslukhov, Tiago Guerreiro, Konstantin Beznosov and Luís 
+Carrico (2016). "Snooping on Mobile Phones: Prevalence and Trends". SOUPS 2016.  https://www.usenix.org/conference/soups2016/technical-sessions/presentation/marques
 
 It also contains reduced and scrambled datasets necessary for analysis, in 
 folder datasets. To load all the data in a specific study, source() one of the
 "sX_data.R" scripts.
 
-Full datasets are not made publicly available for privacy reasons. Collating the 
-available datasets will NOT reproduce the original datasets.
+Full datasets are not made publicly available for privacy reasons. Collating the available datasets will NOT reproduce the original datasets.
 
 # Mapping between files and paper
 
